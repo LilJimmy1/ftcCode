@@ -1,16 +1,13 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.subsystems;
 
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
-import com.qualcomm.robotcore.hardware.IMU;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.util.Range;
-import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 
 @TeleOp(name = "Unified Field-Centric TeleOp", group = "Linear Opmode")
-public class UnifiedFieldCentricTeleOp extends LinearOpMode {
+public class MAINFieldCentricTeleOp extends LinearOpMode {
 
     // Declare motors
     private DcMotor frontLeftMotor, frontRightMotor, backLeftMotor, backRightMotor;
