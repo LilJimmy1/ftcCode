@@ -40,8 +40,8 @@ public class MAINFieldCentricTeleOp extends LinearOpMode {
 
         while (opModeIsActive()) {
             // Get joystick inputs
-            double y = -gamepad1.left_stick_y; // Forward/backward
-            double x = gamepad1.left_stick_x * 1.1; // Strafe (scaled for strafing inefficiency)
+            double y = gamepad1.left_stick_y; // Forward/backward
+            double x = -gamepad1.left_stick_x * 1.1; // Strafe (scaled for strafing inefficiency)
             double rx = gamepad1.right_stick_x; // Rotation
 
             // Reset IMU yaw with the "Options" button
